@@ -15,3 +15,4 @@ C:\Users\mynor\source\repos\Restaurante\Restaurante\obj\Debug\net5.0-windows\Res
 C:\Users\mynor\source\repos\Restaurante\Restaurante\obj\Debug\net5.0-windows\ref\Restaurante.dll
 C:\Users\mynor\source\repos\Restaurante\Restaurante\obj\Debug\net5.0-windows\Restaurante.pdb
 C:\Users\mynor\source\repos\Restaurante\Restaurante\obj\Debug\net5.0-windows\Restaurante.genruntimeconfig.cache
+C:\Users\mynor\source\repos\Restaurante\Restaurante\obj\Debug\net5.0-windows\Restaurante.vbproj.AssemblyReference.cache
