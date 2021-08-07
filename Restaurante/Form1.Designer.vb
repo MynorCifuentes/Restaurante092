@@ -37,6 +37,7 @@ Partial Class Form1
         Me.Label5 = New System.Windows.Forms.Label()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -99,9 +100,9 @@ Partial Class Form1
         Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label1.Location = New System.Drawing.Point(161, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(617, 84)
+        Me.Label1.Size = New System.Drawing.Size(592, 84)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Restaurante Baby❤"
+        Me.Label1.Text = "Restaurante 092❤"
         '
         'btn_agregar
         '
@@ -200,11 +201,22 @@ Partial Class Form1
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "Sub Total"
         '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Comic Sans MS", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Button1.Location = New System.Drawing.Point(294, 420)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(379, 59)
+        Me.Button1.TabIndex = 5
+        Me.Button1.Text = "¡Gracias por visitarnos! ❤"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(921, 504)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.btn_agregar)
         Me.Controls.Add(Me.Label1)
@@ -235,4 +247,5 @@ Partial Class Form1
     Friend WithEvents Label5 As Label
     Friend WithEvents RadioButton1 As RadioButton
     Friend WithEvents Label4 As Label
+    Friend WithEvents Button1 As Button
 End Class
